@@ -181,6 +181,8 @@ public:
 	CFlow m_Flow;
 	CHud m_Hud;
 	CImportantAlert m_ImportantAlert;
+    CImportantAlert m_ImportantAlert;
+    CAntiFreeze m_AntiFreeze;
 	CDebugHud m_DebugHud;
 	CControls m_Controls;
 	CEffects m_Effects;
