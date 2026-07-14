@@ -357,6 +357,7 @@ void CGameClient::OnInit()
 			dbg_assert_failed("Invalid callback loading detail");
 		}
 		m_Menus.RenderLoading(pTitle, pMessage, 0);
+		m_vpAll.push_back(&m_AntiFreeze);
 	});
 
 	m_pGraphics = Kernel()->RequestInterface<IGraphics>();
